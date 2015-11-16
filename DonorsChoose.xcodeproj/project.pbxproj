@@ -15,6 +15,7 @@
 		FA3FB20F1BFA956A0037B8F0 /* DonorsChooseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FB20E1BFA956A0037B8F0 /* DonorsChooseTests.swift */; };
 		FA3FB21A1BFA956A0037B8F0 /* DonorsChooseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FB2191BFA956A0037B8F0 /* DonorsChooseUITests.swift */; };
 		FA3FB22D1BFA96BE0037B8F0 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FB22C1BFA96BE0037B8F0 /* SwiftyJSON.swift */; };
+		FA3FB22F1BFA9A950037B8F0 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FB22E1BFA9A950037B8F0 /* RestApiManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		FA3FB21B1BFA956A0037B8F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA3FB22B1BFA96BE0037B8F0 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftyJSON.h; path = DonorsChoose/SwiftyJSON.h; sourceTree = "<group>"; };
 		FA3FB22C1BFA96BE0037B8F0 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = DonorsChoose/SwiftyJSON.swift; sourceTree = "<group>"; };
+		FA3FB22E1BFA9A950037B8F0 /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestApiManager.swift; path = DonorsChoose/RestApiManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			children = (
 				FA3FB22B1BFA96BE0037B8F0 /* SwiftyJSON.h */,
 				FA3FB22C1BFA96BE0037B8F0 /* SwiftyJSON.swift */,
+				FA3FB22E1BFA9A950037B8F0 /* RestApiManager.swift */,
 			);
 			name = "Helper Classes";
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			files = (
 				FA3FB22D1BFA96BE0037B8F0 /* SwiftyJSON.swift in Sources */,
 				FA3FB1FC1BFA956A0037B8F0 /* ViewController.swift in Sources */,
+				FA3FB22F1BFA9A950037B8F0 /* RestApiManager.swift in Sources */,
 				FA3FB1FA1BFA956A0037B8F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
