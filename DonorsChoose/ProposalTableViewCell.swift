@@ -38,7 +38,46 @@ class ProposalTableViewCell: UITableViewCell {
                         }        
                     }
                 }
+
+                if proposal.likeState == LikeState.Like {
+                    likeButtonOn()
+                } else if proposal.likeState == LikeState.Dislike {
+                    dislikeButtonOn()
+                } else {
+                    bothButtonsOff()
+                }
             }
         }
+    }
+
+    @IBAction func didTapLike(sender: UIButton) {
+        self.proposal?.likeState = .Like
+        likeButtonOn()
+    }
+
+
+    @IBAction func didTapDislike(sender: UIButton) {
+        self.proposal?.likeState = .Dislike
+        dislikeButtonOn()
+    }
+
+    @IBAction func didTapClear(sender: UIButton) {
+        self.proposal?.likeState = .Neutral
+        bothButtonsOff()
+    }
+
+    private func likeButtonOn() {
+        self.likeButton.titleLabel?.font = UIFont.boldSystemFontOfSize(28)
+        self.dislikeButton.titleLabel?.font = UIFont.systemFontOfSize(15)
+    }
+
+    private func dislikeButtonOn() {
+        self.dislikeButton.titleLabel?.font = UIFont.boldSystemFontOfSize(22)
+        self.likeButton.titleLabel?.font = UIFont.systemFontOfSize(15)
+    }
+
+    private func bothButtonsOff() {
+        self.likeButton.titleLabel?.font = UIFont.systemFontOfSize(15)
+        self.dislikeButton.titleLabel?.font = UIFont.systemFontOfSize(15)
     }
 }
