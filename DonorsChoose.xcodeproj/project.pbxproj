@@ -16,6 +16,7 @@
 		FA3FB21A1BFA956A0037B8F0 /* DonorsChooseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FB2191BFA956A0037B8F0 /* DonorsChooseUITests.swift */; };
 		FA3FB22D1BFA96BE0037B8F0 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FB22C1BFA96BE0037B8F0 /* SwiftyJSON.swift */; };
 		FA3FB22F1BFA9A950037B8F0 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FB22E1BFA9A950037B8F0 /* RestApiManager.swift */; };
+		FA3FB2381BFB9EEC0037B8F0 /* offlineData.json in Resources */ = {isa = PBXBuildFile; fileRef = FA3FB2371BFB9EEC0037B8F0 /* offlineData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		FA3FB22B1BFA96BE0037B8F0 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftyJSON.h; path = DonorsChoose/SwiftyJSON.h; sourceTree = "<group>"; };
 		FA3FB22C1BFA96BE0037B8F0 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = DonorsChoose/SwiftyJSON.swift; sourceTree = "<group>"; };
 		FA3FB22E1BFA9A950037B8F0 /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestApiManager.swift; path = DonorsChoose/RestApiManager.swift; sourceTree = "<group>"; };
+		FA3FB2371BFB9EEC0037B8F0 /* offlineData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = offlineData.json; path = DonorsChoose/offlineData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		FA3FB1ED1BFA956A0037B8F0 = {
 			isa = PBXGroup;
 			children = (
+				FA3FB2341BFB9EC40037B8F0 /* Files */,
 				FA3FB2271BFA96040037B8F0 /* Helper Classes */,
 				FA3FB1F81BFA956A0037B8F0 /* DonorsChoose */,
 				FA3FB20D1BFA956A0037B8F0 /* DonorsChooseTests */,
@@ -139,6 +142,14 @@
 				FA3FB22E1BFA9A950037B8F0 /* RestApiManager.swift */,
 			);
 			name = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		FA3FB2341BFB9EC40037B8F0 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA3FB2371BFB9EEC0037B8F0 /* offlineData.json */,
+			);
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3FB2041BFA956A0037B8F0 /* LaunchScreen.storyboard in Resources */,
+				FA3FB2381BFB9EEC0037B8F0 /* offlineData.json in Resources */,
 				FA3FB2011BFA956A0037B8F0 /* Assets.xcassets in Resources */,
 				FA3FB1FF1BFA956A0037B8F0 /* Main.storyboard in Resources */,
 			);
@@ -502,6 +514,7 @@
 				FA3FB2201BFA956A0037B8F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA3FB2211BFA956A0037B8F0 /* Build configuration list for PBXNativeTarget "DonorsChooseTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +523,7 @@
 				FA3FB2231BFA956A0037B8F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA3FB2241BFA956A0037B8F0 /* Build configuration list for PBXNativeTarget "DonorsChooseUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +532,7 @@
 				FA3FB2261BFA956A0037B8F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
