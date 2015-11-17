@@ -67,17 +67,26 @@ class ProposalTableViewCell: UITableViewCell {
     }
 
     private func likeButtonOn() {
-        self.likeButton.titleLabel?.font = UIFont.boldSystemFontOfSize(28)
-        self.dislikeButton.titleLabel?.font = UIFont.systemFontOfSize(15)
+        addBorderToButton(self.likeButton)
+        removeBorderFromButton(self.dislikeButton)
     }
 
     private func dislikeButtonOn() {
-        self.dislikeButton.titleLabel?.font = UIFont.boldSystemFontOfSize(22)
-        self.likeButton.titleLabel?.font = UIFont.systemFontOfSize(15)
+        addBorderToButton(self.dislikeButton)
+        removeBorderFromButton(self.likeButton)
     }
 
     private func bothButtonsOff() {
-        self.likeButton.titleLabel?.font = UIFont.systemFontOfSize(15)
-        self.dislikeButton.titleLabel?.font = UIFont.systemFontOfSize(15)
+        removeBorderFromButton(self.likeButton)
+        removeBorderFromButton(self.dislikeButton)
+    }
+
+    private func addBorderToButton(button: UIButton) {
+        button.layer.borderColor = UIColor.greenColor().CGColor
+        button.layer.borderWidth = 8.0
+    }
+
+    private func removeBorderFromButton(button: UIButton) {
+        button.layer.borderWidth = 0.0
     }
 }
