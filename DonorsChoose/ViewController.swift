@@ -12,9 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Print something to see it show up in the console.
-        print("Hello, World")
+        // Get some search results in the form of a JSON response, and then print that.
+        let resultsJSON = RestApiManager.sharedInstance.donorsChooseSearch(maxNumResults: 1, keywords: "Chicago")
+        print(resultsJSON)
     }
 
 }

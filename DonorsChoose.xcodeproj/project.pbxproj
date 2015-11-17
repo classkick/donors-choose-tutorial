@@ -16,6 +16,7 @@
 		FA3FB21A1BFA956A0037B8F0 /* DonorsChooseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FB2191BFA956A0037B8F0 /* DonorsChooseUITests.swift */; };
 		FA3FB22D1BFA96BE0037B8F0 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FB22C1BFA96BE0037B8F0 /* SwiftyJSON.swift */; };
 		FA3FB22F1BFA9A950037B8F0 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FB22E1BFA9A950037B8F0 /* RestApiManager.swift */; };
+		FA3FB2311BFAAAF70037B8F0 /* Proposal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FB2301BFAAAF70037B8F0 /* Proposal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		FA3FB22B1BFA96BE0037B8F0 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftyJSON.h; path = DonorsChoose/SwiftyJSON.h; sourceTree = "<group>"; };
 		FA3FB22C1BFA96BE0037B8F0 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = DonorsChoose/SwiftyJSON.swift; sourceTree = "<group>"; };
 		FA3FB22E1BFA9A950037B8F0 /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestApiManager.swift; path = DonorsChoose/RestApiManager.swift; sourceTree = "<group>"; };
+		FA3FB2301BFAAAF70037B8F0 /* Proposal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Proposal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				FA3FB2001BFA956A0037B8F0 /* Assets.xcassets */,
 				FA3FB2021BFA956A0037B8F0 /* LaunchScreen.storyboard */,
 				FA3FB2051BFA956A0037B8F0 /* Info.plist */,
+				FA3FB2301BFAAAF70037B8F0 /* Proposal.swift */,
 			);
 			path = DonorsChoose;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3FB22D1BFA96BE0037B8F0 /* SwiftyJSON.swift in Sources */,
+				FA3FB2311BFAAAF70037B8F0 /* Proposal.swift in Sources */,
 				FA3FB1FC1BFA956A0037B8F0 /* ViewController.swift in Sources */,
 				FA3FB22F1BFA9A950037B8F0 /* RestApiManager.swift in Sources */,
 				FA3FB1FA1BFA956A0037B8F0 /* AppDelegate.swift in Sources */,
@@ -502,6 +506,7 @@
 				FA3FB2201BFA956A0037B8F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA3FB2211BFA956A0037B8F0 /* Build configuration list for PBXNativeTarget "DonorsChooseTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +515,7 @@
 				FA3FB2231BFA956A0037B8F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA3FB2241BFA956A0037B8F0 /* Build configuration list for PBXNativeTarget "DonorsChooseUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +524,7 @@
 				FA3FB2261BFA956A0037B8F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
