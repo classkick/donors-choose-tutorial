@@ -18,6 +18,7 @@
 		FA3FB22F1BFA9A950037B8F0 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FB22E1BFA9A950037B8F0 /* RestApiManager.swift */; };
 		FA3FB2311BFAAAF70037B8F0 /* Proposal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FB2301BFAAAF70037B8F0 /* Proposal.swift */; };
 		FA3FB2331BFABCCC0037B8F0 /* ProposalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FB2321BFABCCC0037B8F0 /* ProposalTableViewCell.swift */; };
+		FA3FB2381BFB9EEC0037B8F0 /* offlineData.json in Resources */ = {isa = PBXBuildFile; fileRef = FA3FB2371BFB9EEC0037B8F0 /* offlineData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		FA3FB22E1BFA9A950037B8F0 /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestApiManager.swift; path = DonorsChoose/RestApiManager.swift; sourceTree = "<group>"; };
 		FA3FB2301BFAAAF70037B8F0 /* Proposal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Proposal.swift; sourceTree = "<group>"; };
 		FA3FB2321BFABCCC0037B8F0 /* ProposalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProposalTableViewCell.swift; sourceTree = "<group>"; };
+		FA3FB2371BFB9EEC0037B8F0 /* offlineData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = offlineData.json; path = DonorsChoose/offlineData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		FA3FB1ED1BFA956A0037B8F0 = {
 			isa = PBXGroup;
 			children = (
+				FA3FB2341BFB9EC40037B8F0 /* Files */,
 				FA3FB2271BFA96040037B8F0 /* Helper Classes */,
 				FA3FB1F81BFA956A0037B8F0 /* DonorsChoose */,
 				FA3FB20D1BFA956A0037B8F0 /* DonorsChooseTests */,
@@ -145,6 +148,14 @@
 				FA3FB22E1BFA9A950037B8F0 /* RestApiManager.swift */,
 			);
 			name = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		FA3FB2341BFB9EC40037B8F0 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA3FB2371BFB9EEC0037B8F0 /* offlineData.json */,
+			);
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3FB2041BFA956A0037B8F0 /* LaunchScreen.storyboard in Resources */,
+				FA3FB2381BFB9EEC0037B8F0 /* offlineData.json in Resources */,
 				FA3FB2011BFA956A0037B8F0 /* Assets.xcassets in Resources */,
 				FA3FB1FF1BFA956A0037B8F0 /* Main.storyboard in Resources */,
 			);
