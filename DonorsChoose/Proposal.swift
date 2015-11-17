@@ -21,7 +21,15 @@ class Proposal : CustomStringConvertible {
     var photoUrl: String?
     var shortDescription: String
     var totalPrice: Double
+
+    // Percent as a fraction of 1, e.g. 0.96, not 96%
     var percentFunded: Double
+
+    var fundedAmount: Double {
+        get {
+            return self.totalPrice * self.percentFunded
+        }
+    }
 
     var likeState: LikeState
 
@@ -36,7 +44,7 @@ class Proposal : CustomStringConvertible {
         let photoUrl = json["thumbImageURL"].string
         let shortDescription = json["shortDescription"].stringValue
         let totalPrice = json["totalPrice"].doubleValue
-        let percentFunded = json["percentFunded"].doubleValue
+        let percentFunded = json["percentFunded"].doubleValue * 0.01
 
         self.init(title: title, photoUrl: photoUrl, shortDescription: shortDescription, totalPrice: totalPrice, percentFunded: percentFunded)
     }

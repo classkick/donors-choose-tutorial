@@ -42,10 +42,12 @@ class ViewController: UIViewController, UITableViewDataSource {
 
     // UITableViewDataSource method specifying what the cell should look like for each row
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var proposalCell = tableView.dequeueReusableCellWithIdentifier("proposalCell")
+        var proposalCell = tableView.dequeueReusableCellWithIdentifier("proposalCell") as? ProposalTableViewCell
         if proposalCell == nil {
             proposalCell = ProposalTableViewCell()
         }
+        let proposal = self.proposals[indexPath.row]
+        proposalCell!.proposal = proposal
         return proposalCell!
     }
 }
