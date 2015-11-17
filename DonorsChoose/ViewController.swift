@@ -11,7 +11,21 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource {
 
     @IBOutlet weak var proposalTableView: UITableView!
+    @IBOutlet weak var toggleViewButton: UIButton!
+
     var proposals: [Proposal] = []
+
+    // This returns a filtered list of proposals that are "liked"
+    // The upside to this approach is that no additional memory is used and it's pretty self-contained, but the downside is that it needs to re-filter the array every time it's accessed.
+    var favoriteProposals: [Proposal] {
+        get {
+            return self.proposals.filter { (proposal) -> Bool in
+                return proposal.likeState == LikeState.Like
+            }
+        }
+    }
+
+    var isViewFavoritesOnly = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,6 +51,9 @@ class ViewController: UIViewController, UITableViewDataSource {
 
     // UITableViewDataSource method defining the number of rows in the section
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if self.isViewFavoritesOnly {
+            return self.favoriteProposals.count
+        }
         return self.proposals.count
     }
 
@@ -46,9 +63,26 @@ class ViewController: UIViewController, UITableViewDataSource {
         if proposalCell == nil {
             proposalCell = ProposalTableViewCell()
         }
-        let proposal = self.proposals[indexPath.row]
+        let proposal:Proposal
+        if self.isViewFavoritesOnly {
+            proposal = self.favoriteProposals[indexPath.row]
+        } else {
+            proposal = self.proposals[indexPath.row]
+        }
         proposalCell!.proposal = proposal
         return proposalCell!
+    }
+
+    // When the "Favorites" button is tapped, toggle between showing all of the
+    // project proposals and just the liked ones.
+    @IBAction func didTapViewToggle(sender: UIButton) {
+        self.isViewFavoritesOnly = !self.isViewFavoritesOnly
+        if (self.isViewFavoritesOnly) {
+            self.toggleViewButton.setTitle("All", forState: UIControlState.Normal)
+        } else {
+            self.toggleViewButton.setTitle("Favorites", forState: UIControlState.Normal)
+        }
+        self.proposalTableView.reloadData()
     }
 }
 
