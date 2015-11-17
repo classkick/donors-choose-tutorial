@@ -17,6 +17,7 @@
 		FA3FB22D1BFA96BE0037B8F0 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FB22C1BFA96BE0037B8F0 /* SwiftyJSON.swift */; };
 		FA3FB22F1BFA9A950037B8F0 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FB22E1BFA9A950037B8F0 /* RestApiManager.swift */; };
 		FA3FB2311BFAAAF70037B8F0 /* Proposal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FB2301BFAAAF70037B8F0 /* Proposal.swift */; };
+		FA3FB2331BFABCCC0037B8F0 /* ProposalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FB2321BFABCCC0037B8F0 /* ProposalTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		FA3FB22C1BFA96BE0037B8F0 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = DonorsChoose/SwiftyJSON.swift; sourceTree = "<group>"; };
 		FA3FB22E1BFA9A950037B8F0 /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestApiManager.swift; path = DonorsChoose/RestApiManager.swift; sourceTree = "<group>"; };
 		FA3FB2301BFAAAF70037B8F0 /* Proposal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Proposal.swift; sourceTree = "<group>"; };
+		FA3FB2321BFABCCC0037B8F0 /* ProposalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProposalTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				FA3FB2021BFA956A0037B8F0 /* LaunchScreen.storyboard */,
 				FA3FB2051BFA956A0037B8F0 /* Info.plist */,
 				FA3FB2301BFAAAF70037B8F0 /* Proposal.swift */,
+				FA3FB2321BFABCCC0037B8F0 /* ProposalTableViewCell.swift */,
 			);
 			path = DonorsChoose;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				FA3FB1FC1BFA956A0037B8F0 /* ViewController.swift in Sources */,
 				FA3FB22F1BFA9A950037B8F0 /* RestApiManager.swift in Sources */,
 				FA3FB1FA1BFA956A0037B8F0 /* AppDelegate.swift in Sources */,
+				FA3FB2331BFABCCC0037B8F0 /* ProposalTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -44,9 +44,8 @@ class ViewController: UIViewController, UITableViewDataSource {
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var proposalCell = tableView.dequeueReusableCellWithIdentifier("proposalCell")
         if proposalCell == nil {
-            proposalCell = UITableViewCell()
+            proposalCell = ProposalTableViewCell()
         }
-        proposalCell?.textLabel?.text = self.proposals[indexPath.row].description
         return proposalCell!
     }
 }
