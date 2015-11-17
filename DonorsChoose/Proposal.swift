@@ -16,7 +16,7 @@ enum LikeState {
 }
 
 // Class representing a Proposal, a fundable proposition of some project.
-class Proposal {
+class Proposal : CustomStringConvertible {
     var title: String
     var photoUrl: String?
     var shortDescription: String
@@ -24,6 +24,11 @@ class Proposal {
     var percentFunded: Double
 
     var likeState: LikeState
+
+    // A string representation of this object. Requires this class to conform to CustomStringConvertible
+    var description: String {
+        return "Proposal:\ntitle: \(self.title)\nphotoUrl:\(self.photoUrl)\nshortDescription:\(self.shortDescription)\ntotalPrice:\(self.totalPrice)\npercentFunded:\(self.percentFunded)\nlikeState: \(self.likeState)\n"
+    }
 
     // Initializer that takes in a JSON representation of a single proposal
     convenience init(json: JSON) {
