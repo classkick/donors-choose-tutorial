@@ -1,0 +1,425 @@
+{
+    "searchTerms": "Chicago",
+    "searchURL": "http://www.donorschoose.org/donors/search.html?keywords=Chicago&utm_source=api&utm_medium=feed&utm_content=searchlink&utm_campaign=DONORSCHOOSE",
+    "totalProposals": "836",
+    "index": "0",
+    "max": "5",
+    "breadcrumb": [
+                   [
+                    "max",
+                    "5",
+                    ""
+                    ],
+                   [
+                    "keywords",
+                    "Chicago",
+                    "Chicago"
+                    ]
+                   ],
+    "proposals": [
+                  {
+                  "id": "1762052",
+                  "hashCode": "-806596049",
+                  "proposalURL": "http://www.donorschoose.org/project/ipads-chinese-home-run-for-students/1762052/?verify=-806596049&utm_source=api&utm_medium=feed&utm_content=bodylink&utm_campaign=DONORSCHOOSE",
+                  "fundURL": "https://secure.donorschoose.org/donors/givingCart.html?proposalid=1762052&donationAmount=45&verify=-806596049&utm_source=api&utm_medium=feed&utm_content=fundlink&utm_campaign=DONORSCHOOSE",
+                  "imageURL": "https://a248.e.akamai.net/f/248/48906/1h/s3.amazonaws.com/donorschoose-storage/dc_prod/images/user/small/u3247071_sm.jpg?timestamp=1446656059076",
+                  "thumbImageURL": "https://a248.e.akamai.net/f/248/48906/1h/s3.amazonaws.com/donorschoose-storage/dc_prod/images/user/thumbnail/u3247071_thmb.jpg?timestamp=1446656059076",
+                  "title": "iPads + Chinese = Home Run for Students!",
+                  "shortDescription": "My students love using technology each day. Why not use it to learn Mandarin Chinese? Students must have fun and be engaged to learn this difficult language. Students are developing skills they...",
+                  "fulfillmentTrailer": "My students need one iPad so they can use apps to learn Chinese language during small group work, record skits, read Chinese stories and win Chinese Kahoot competitions.",
+                  "snippets": ["inner-city, <em>Chicago<\/em> students. I teach every single grade from Pre-Kindergarten through 8th grade. On a"],
+                  "percentFunded": "93",
+                  "numDonors": "8",
+                  "costToComplete": "52.93",
+                  "studentLed": false,
+                  "matchingFund": {
+                  "matchingKey": "",
+                  "ownerRegion": "",
+                  "name": "",
+                  "donorSalutation": "",
+                  "type": "",
+                  "logoURL": "",
+                  "faqURL": "",
+                  "amount": "0.00",
+                  "description": ""
+                  },
+                  "teacherFFPromoCodeFund": {
+                  "eligible": "true",
+                  "deadline": "November 22",
+                  "code": "SPARK",
+                  "matchingKey": "teacherProm7",
+                  "ownerRegion": "Marketing",
+                  "name": "Matching Donor",
+                  "donorSalutation": "The DonorsChoose.org Team",
+                  "type": "PROMO",
+                  "logoURL": "",
+                  "description": ""
+                  },
+                  "totalPrice": "751.75",
+                  "freeShipping": "true",
+                  "teacherId": "3247071",
+                  "teacherName": "Ms. Durso",
+                  "gradeLevel": {
+                  "id": "2",
+                  "name": "Grades 3-5"
+                  },
+                  "povertyLevel": "Highest Poverty",
+                  "teacherTypes": [],
+                  "schoolTypes": [
+                                  {
+                                  "id": 17,
+                                  "name": "Kia (partner)"
+                                  },
+                                  {
+                                  "id": 4,
+                                  "name": "Magnet"
+                                  }
+                                  ],
+                  "schoolName": "Mitchell Elementary School",
+                  "schoolUrl": "http://www.donorschoose.org/school/mitchell-elementary-school/5770/",
+                  "city": "Chicago",
+                  "zip": "60612-1519",
+                  "state": "IL",
+                  "stateFullName": "Illinois",
+                  "latitude": "41.892039000000000",
+                  "longitude": "-87.682724000000000",
+                  "zone": {
+                  "id": "201",
+                  "name": "Illinois (Chicago)"
+                  },
+                  "subject": {
+                  "id": "10",
+                  "name": "Literacy",
+                  "groupId": "6"
+                  },
+                  "additionalSubjects": [{
+                                         "id": "22",
+                                         "name": "Foreign Languages",
+                                         "groupId": "6"
+                                         }],
+                  "resource": {
+                  "id": "2",
+                  "name": "Technology"
+                  },
+                  "expirationDate": "2016-02-24",
+                  "fundingStatus": "needs funding"
+                  },
+                  {
+                  "id": "1750470",
+                  "hashCode": "-881212175",
+                  "proposalURL": "http://www.donorschoose.org/project/famous-landmarks-and-monuments-with-lego/1750470/?verify=-881212175&utm_source=api&utm_medium=feed&utm_content=bodylink&utm_campaign=DONORSCHOOSE",
+                  "fundURL": "https://secure.donorschoose.org/donors/givingCart.html?proposalid=1750470&donationAmount=45&verify=-881212175&utm_source=api&utm_medium=feed&utm_content=fundlink&utm_campaign=DONORSCHOOSE",
+                  "imageURL": "https://a248.e.akamai.net/f/248/48906/1h/s3.amazonaws.com/donorschoose-storage/dc_prod/images/user/small/u3224935_sm.jpg?timestamp=1446315645886",
+                  "thumbImageURL": "https://a248.e.akamai.net/f/248/48906/1h/s3.amazonaws.com/donorschoose-storage/dc_prod/images/user/thumbnail/u3224935_thmb.jpg?timestamp=1446315645886",
+                  "title": "Famous Landmarks and Monuments with Legos",
+                  "shortDescription": "Because I teach a refugee population, everyday is unique, as is every student. In a typical day in my classroom, we learn about being part of a community. Our Motto is \"Making my community home.\"...",
+                  "fulfillmentTrailer": "My students need Lego Architecture Kits of famous landmarks and monuments around the world.",
+                  "snippets": ["Sears Tower <em>Chicago<\/em> Illinois USA LEGO 21000 ORIGINAL"],
+                  "percentFunded": "65",
+                  "numDonors": "13",
+                  "costToComplete": "351.56",
+                  "studentLed": false,
+                  "matchingFund": {
+                  "matchingKey": "",
+                  "ownerRegion": "",
+                  "name": "",
+                  "donorSalutation": "",
+                  "type": "",
+                  "logoURL": "",
+                  "faqURL": "",
+                  "amount": "0.00",
+                  "description": ""
+                  },
+                  "totalPrice": "1008.33",
+                  "freeShipping": "true",
+                  "teacherId": "3224935",
+                  "teacherName": "Ms. McBurney",
+                  "gradeLevel": {
+                  "id": "3",
+                  "name": "Grades 6-8"
+                  },
+                  "povertyLevel": "Highest Poverty",
+                  "teacherTypes": [],
+                  "schoolTypes": [],
+                  "schoolName": "International Student Center",
+                  "schoolUrl": "http://www.donorschoose.org/school/int-l-student-lab-school/101276/",
+                  "city": "Decatur",
+                  "zip": "30032",
+                  "state": "GA",
+                  "stateFullName": "Georgia",
+                  "latitude": "33.754810333251953",
+                  "longitude": "-84.254371643066400",
+                  "zone": {
+                  "id": "313",
+                  "name": "Georgia"
+                  },
+                  "subject": {
+                  "id": "9",
+                  "name": "History &amp; Geography",
+                  "groupId": "3"
+                  },
+                  "additionalSubjects": [{
+                                         "id": "25",
+                                         "name": "ESL",
+                                         "groupId": "6"
+                                         }],
+                  "resource": {
+                  "id": "6",
+                  "name": "Other"
+                  },
+                  "expirationDate": "2016-03-02",
+                  "fundingStatus": "needs funding"
+                  },
+                  {
+                  "id": "1775956",
+                  "hashCode": "1229500671",
+                  "proposalURL": "http://www.donorschoose.org/project/monarch-books-inspiring-childrens-mind/1775956/?verify=1229500671&utm_source=api&utm_medium=feed&utm_content=bodylink&utm_campaign=DONORSCHOOSE",
+                  "fundURL": "https://secure.donorschoose.org/donors/givingCart.html?proposalid=1775956&donationAmount=45&verify=1229500671&utm_source=api&utm_medium=feed&utm_content=fundlink&utm_campaign=DONORSCHOOSE",
+                  "imageURL": "https://a248.e.akamai.net/f/248/48906/1h/s3.amazonaws.com/donorschoose-storage/dc_prod/images/user/small/u117869_sm.jpg?timestamp=1416970922728",
+                  "thumbImageURL": "https://a248.e.akamai.net/f/248/48906/1h/s3.amazonaws.com/donorschoose-storage/dc_prod/images/user/thumbnail/u117869_thmb.jpg?timestamp=1416970922728",
+                  "title": "Monarch Books: Inspiring Childrens&#039; Minds to Fly Free",
+                  "shortDescription": "My classroom is filled with 23 eager and enthusiastic first graders. As their first grade teacher, I owe it to them to provide them with nothing but the best learning opportunities. I teach in a...",
+                  "fulfillmentTrailer": "My students need a set of the 2016 Illinois Monarch Award nominated books. This book set will be used to vote for the K-3 Reader's Choice Award.",
+                  "snippets": [],
+                  "percentFunded": "75",
+                  "numDonors": "7",
+                  "costToComplete": "74.14",
+                  "studentLed": false,
+                  "matchingFund": {
+                  "matchingKey": "",
+                  "ownerRegion": "",
+                  "name": "",
+                  "donorSalutation": "",
+                  "type": "",
+                  "logoURL": "",
+                  "faqURL": "",
+                  "amount": "0.00",
+                  "description": ""
+                  },
+                  "teacherFFPromoCodeFund": {
+                  "eligible": "true",
+                  "deadline": "November 21",
+                  "code": "SPARK",
+                  "matchingKey": "teacherProm7",
+                  "ownerRegion": "Marketing",
+                  "name": "Matching Donor",
+                  "donorSalutation": "The DonorsChoose.org Team",
+                  "type": "PROMO",
+                  "logoURL": "",
+                  "description": ""
+                  },
+                  "totalPrice": "292.96",
+                  "freeShipping": "true",
+                  "teacherId": "117869",
+                  "teacherName": "Mrs. Burger-Wiseman",
+                  "gradeLevel": {
+                  "id": "1",
+                  "name": "Grades PreK-2"
+                  },
+                  "povertyLevel": "",
+                  "teacherTypes": [],
+                  "schoolTypes": [
+                                  {
+                                  "id": 3,
+                                  "name": "Special Education"
+                                  },
+                                  {
+                                  "id": 14,
+                                  "name": "Kia (partner)"
+                                  },
+                                  {
+                                  "id": 11,
+                                  "name": "Bing Our School Needs"
+                                  },
+                                  {
+                                  "id": 15,
+                                  "name": "Kia (partner)"
+                                  },
+                                  {
+                                  "id": 4,
+                                  "name": "Magnet"
+                                  }
+                                  ],
+                  "schoolName": "Cassell Elementary School",
+                  "schoolUrl": "http://www.donorschoose.org/school/cassell-elementary-school/5281/",
+                  "city": "Chicago",
+                  "zip": "60655-2798",
+                  "state": "IL",
+                  "stateFullName": "Illinois",
+                  "latitude": "41.687665000000000",
+                  "longitude": "-87.703264000000000",
+                  "zone": {
+                  "id": "201",
+                  "name": "Illinois (Chicago)"
+                  },
+                  "subject": {
+                  "id": "10",
+                  "name": "Literacy",
+                  "groupId": "6"
+                  },
+                  "additionalSubjects": [{
+                                         "id": "3",
+                                         "name": "Literature &amp; Writing",
+                                         "groupId": "6"
+                                         }],
+                  "resource": {
+                  "id": "1",
+                  "name": "Books"
+                  },
+                  "expirationDate": "2016-03-09",
+                  "fundingStatus": "needs funding"
+                  },
+                  {
+                  "id": "1640179",
+                  "hashCode": "1655168185",
+                  "proposalURL": "http://www.donorschoose.org/project/comfy-classroom-carpet-for-middle-school/1640179/?verify=1655168185&utm_source=api&utm_medium=feed&utm_content=bodylink&utm_campaign=DONORSCHOOSE",
+                  "fundURL": "https://secure.donorschoose.org/donors/givingCart.html?proposalid=1640179&donationAmount=45&verify=1655168185&utm_source=api&utm_medium=feed&utm_content=fundlink&utm_campaign=DONORSCHOOSE",
+                  "imageURL": "https://a248.e.akamai.net/f/248/48906/1h/s3.amazonaws.com/donorschoose-storage/dc_prod/images/user/small/u1586432_sm.jpg?timestamp=1354396739000",
+                  "thumbImageURL": "https://a248.e.akamai.net/f/248/48906/1h/s3.amazonaws.com/donorschoose-storage/dc_prod/images/user/thumbnail/u1586432_thmb.jpg?timestamp=1354396739000",
+                  "title": "Comfy Classroom Carpet for Middle School Meetings",
+                  "shortDescription": "I teach 6th-8th Grade Language Arts at a Chicago Public School. We use a Reading and Writing Workshop model in our classroom. Each day starts with a mini lesson or shared reading, then students...",
+                  "fulfillmentTrailer": "My students need a carpet area in our room where we can have our morning meetings and reading and writing workshop minilessons.",
+                  "snippets": ["I teach 6th-8th Grade Language Arts at a <em>Chicago<\/em> Public School. We use a Reading and Writing"],
+                  "percentFunded": "60",
+                  "numDonors": "5",
+                  "costToComplete": "199.81",
+                  "studentLed": false,
+                  "matchingFund": {
+                  "matchingKey": "",
+                  "ownerRegion": "",
+                  "name": "",
+                  "donorSalutation": "",
+                  "type": "",
+                  "logoURL": "",
+                  "faqURL": "",
+                  "amount": "0.00",
+                  "description": ""
+                  },
+                  "totalPrice": "499.81",
+                  "freeShipping": "true",
+                  "teacherId": "1586432",
+                  "teacherName": "Ms. Walsh",
+                  "gradeLevel": {
+                  "id": "3",
+                  "name": "Grades 6-8"
+                  },
+                  "povertyLevel": "Highest Poverty",
+                  "teacherTypes": [],
+                  "schoolTypes": [
+                                  {
+                                  "id": 3,
+                                  "name": "Special Education"
+                                  },
+                                  {
+                                  "id": 17,
+                                  "name": "Kia (partner)"
+                                  },
+                                  {
+                                  "id": 4,
+                                  "name": "Magnet"
+                                  }
+                                  ],
+                  "schoolName": "Gunsaulus Scholastic Academy",
+                  "schoolUrl": "http://www.donorschoose.org/school/gunsaulus-schoololastic-academy/5424/",
+                  "city": "Chicago",
+                  "zip": "60632-2509",
+                  "state": "IL",
+                  "stateFullName": "Illinois",
+                  "latitude": "41.813207000000000",
+                  "longitude": "-87.699446000000000",
+                  "zone": {
+                  "id": "201",
+                  "name": "Illinois (Chicago)"
+                  },
+                  "subject": {
+                  "id": "10",
+                  "name": "Literacy",
+                  "groupId": "6"
+                  },
+                  "resource": {
+                  "id": "3",
+                  "name": "Supplies"
+                  },
+                  "expirationDate": "2015-12-31",
+                  "fundingStatus": "needs funding"
+                  },
+                  {
+                  "id": "1649809",
+                  "hashCode": "-436352425",
+                  "proposalURL": "http://www.donorschoose.org/project/visions-to-reality/1649809/?verify=-436352425&utm_source=api&utm_medium=feed&utm_content=bodylink&utm_campaign=DONORSCHOOSE",
+                  "fundURL": "https://secure.donorschoose.org/donors/givingCart.html?proposalid=1649809&donationAmount=45&verify=-436352425&utm_source=api&utm_medium=feed&utm_content=fundlink&utm_campaign=DONORSCHOOSE",
+                  "imageURL": "https://a248.e.akamai.net/f/248/48906/1h/s3.amazonaws.com/donorschoose-storage/dc_prod/images/user/small/u3048355_sm.jpg?timestamp=1440087012326",
+                  "thumbImageURL": "https://a248.e.akamai.net/f/248/48906/1h/s3.amazonaws.com/donorschoose-storage/dc_prod/images/user/thumbnail/u3048355_thmb.jpg?timestamp=1440087012326",
+                  "title": "Visions to Reality",
+                  "shortDescription": "Do you know what its like raising the bar for students with subpar resources? Can you imagine the excitement followed by frustration when you have poured your blood, sweat, and tears into a...",
+                  "fulfillmentTrailer": "My students need a printer with a scanner and extra ink to complete custom projects.",
+                  "snippets": [],
+                  "percentFunded": "75",
+                  "numDonors": "5",
+                  "costToComplete": "125.65",
+                  "studentLed": false,
+                  "matchingFund": {
+                  "matchingKey": "SONIC16",
+                  "ownerRegion": "East",
+                  "name": "SONIC Drive-In",
+                  "donorSalutation": "SONIC Drive-In",
+                  "type": "DYI",
+                  "logoURL": "https://a248.e.akamai.net/f/248/48906/2d/secure.donorschoose.org/images/logos/LFL2.jpg?v=2",
+                  "faqURL": "http://www.donorschoose.org/donors/matching_grant_popup.html?matchingKey=SONIC16",
+                  "amount": "248.00",
+                  "description": "<p align=\"center\"><img src=\"https://a248.e.akamai.net/f/248/48906/2d/secure.donorschoose.org/images/logos/LFL2.jpg?v=2\"><\/p>\r\n\r\n<p>You can bring this project to life at half the cost!<\/p>\r\n\r\n<p>SONIC Drive-In will fund 50% of this project if someone like you provides the remainder. By completing this project, you will double the impact of your donation.<\/p>\r\n\r\n<p>The 2015 Limeades for Learning voting campaign is in the books. Thank you for joining us in this year's campaign, and while we weren't able to fund your project through voting, SONIC Drive-In still cares about you and your students. We hope this match offer will help make your classroom dreams a reality!<\/p>\r\n\r\n<p><a target=\"_blank\" href=\"http://www.donorschoose.org/donors/search.html?matchingId=955\">See all projects eligible for this match offer.<\/a><\/p>"
+                  },
+                  "totalPrice": "496.00",
+                  "freeShipping": "true",
+                  "teacherId": "3048355",
+                  "teacherName": "Ms. McGee",
+                  "gradeLevel": {
+                  "id": "3",
+                  "name": "Grades 6-8"
+                  },
+                  "povertyLevel": "Highest Poverty",
+                  "teacherTypes": [
+                                   {
+                                   "id": 5,
+                                   "name": "SONIC Teacher"
+                                   },
+                                   {
+                                   "id": 11,
+                                   "name": "U.S. Cellular teacher"
+                                   }
+                                   ],
+                  "schoolTypes": [{
+                                  "id": 17,
+                                  "name": "Kia (partner)"
+                                  }],
+                  "schoolName": "Fairfield Academy",
+                  "schoolUrl": "http://www.donorschoose.org/school/fairfield-academy/5719/",
+                  "city": "Chicago",
+                  "zip": "60629-2309",
+                  "state": "IL",
+                  "stateFullName": "Illinois",
+                  "latitude": "41.780789000000000",
+                  "longitude": "-87.692022000000000",
+                  "zone": {
+                  "id": "201",
+                  "name": "Illinois (Chicago)"
+                  },
+                  "subject": {
+                  "id": "15",
+                  "name": "Social Sciences",
+                  "groupId": "3"
+                  },
+                  "additionalSubjects": [{
+                                         "id": "3",
+                                         "name": "Literature &amp; Writing",
+                                         "groupId": "6"
+                                         }],
+                  "resource": {
+                  "id": "2",
+                  "name": "Technology"
+                  },
+                  "expirationDate": "2015-12-20",
+                  "fundingStatus": "needs funding"
+                  }
+                  ]
+}

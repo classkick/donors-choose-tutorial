@@ -48,4 +48,11 @@ class RestApiManager: NSObject {
         dispatch_semaphore_wait(completionSemaphore, DISPATCH_TIME_FOREVER)
         return json
     }
+
+    // This isn't as fun, but this is here so that we can still work with some data in case internet stops working.
+    func donorsChooseOfflineData() -> JSON? {
+        let path = NSBundle.mainBundle().pathForResource("offlineData", ofType: "json")
+        let jsonData = NSData(contentsOfFile:path!)
+        return JSON(data: jsonData!)
+    }
 }
