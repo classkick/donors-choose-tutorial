@@ -12,9 +12,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Get some search results in the form of a JSON response, and then print that.
-        let resultsJSON = RestApiManager.sharedInstance.donorsChooseSearch(maxNumResults: 1, keywords: "Chicago")
-        print(resultsJSON)
+        // If there are search results, iterate over the returned proposals. For each one, print something out.
+        if let resultsJSON = RestApiManager.sharedInstance.donorsChooseSearch(maxNumResults: 1, keywords: "Chicago") {
+            // The iterator over a JSON always returns an (index, subJSON), which is why we need the empty first tuple value
+            for (_, proposalJSON):(String, JSON) in resultsJSON["proposals"] {
+                let proposal = Proposal(json: proposalJSON)
+                print(proposal)
+            }
+        }
     }
 
 }
