@@ -19,8 +19,9 @@ class RestApiManager: NSObject {
             searchRequest += "&showSynopsis=true"
         }
         if !keywords.isEmpty {
-            searchRequest += "&keywords=\(keywords.joinWithSeparator("+"))"
+            searchRequest += "&keywords=\(keywords.joinWithSeparator(" "))"
         }
+        searchRequest = searchRequest.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())!
         return makeHTTPGetRequest(searchRequest)
     }
 
