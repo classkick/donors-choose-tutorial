@@ -38,47 +38,37 @@ class ProposalTableViewCell: UITableViewCell {
                         }        
                     }
                 }
-
-                if proposal.likeState == LikeState.Like {
-                    likeButtonOn()
-                } else if proposal.likeState == LikeState.Dislike {
-                    dislikeButtonOn()
-                } else {
-                    bothButtonsOff()
-                }
+                
+                updateButtonUIState()
             }
         }
     }
 
     @IBAction func didTapLike(sender: UIButton) {
         self.proposal?.likeState = .Like
-        likeButtonOn()
+        updateButtonUIState()
     }
 
 
     @IBAction func didTapDislike(sender: UIButton) {
         self.proposal?.likeState = .Dislike
-        dislikeButtonOn()
+        updateButtonUIState()
     }
 
     @IBAction func didTapClear(sender: UIButton) {
         self.proposal?.likeState = .Neutral
-        bothButtonsOff()
+        updateButtonUIState()
     }
-
-    private func likeButtonOn() {
-        addBorderToButton(self.likeButton)
-        removeBorderFromButton(self.dislikeButton)
-    }
-
-    private func dislikeButtonOn() {
-        addBorderToButton(self.dislikeButton)
-        removeBorderFromButton(self.likeButton)
-    }
-
-    private func bothButtonsOff() {
+    
+    private func updateButtonUIState() {
         removeBorderFromButton(self.likeButton)
         removeBorderFromButton(self.dislikeButton)
+        
+        if proposal?.likeState == LikeState.Like {
+            addBorderToButton(self.likeButton)
+        } else if proposal?.likeState == LikeState.Dislike {
+            addBorderToButton(self.dislikeButton)
+        }
     }
 
     private func addBorderToButton(button: UIButton) {
